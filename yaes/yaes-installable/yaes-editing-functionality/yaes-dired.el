@@ -30,7 +30,7 @@
   :config
   (add-hook 'dired-mode-hook #'dired-omit-mode)
   (custom-set-variables
-     `(dired-omit-extensions `,(append '(".glob" ".vo" ".vok" ".vos" ".vio") dired-omit-extensions))))
+   `(dired-omit-extensions '(".glob" ".vo" ".vok" ".vos" ".vio"))))
 
 (provide 'yaes-dired)
 ;;; yaes-dired.el ends here
